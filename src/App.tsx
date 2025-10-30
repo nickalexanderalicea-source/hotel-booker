@@ -22,16 +22,6 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 
-/**
- * HotelBookerApp (refactor estable)
- * - 6+ pantallas, a11y, componentes reutilizables
- * - Cálculo de noches, validaciones, persistencia, formateo moneda
- * - .ics + impresión, Favoritos + navegación
- * - Búsqueda que mantiene foco y filtra por nombre/ubicación/capacidad
- *
- * Requiere TailwindCSS.
- */
-
 const CURRENCY = new Intl.NumberFormat("es-PR", { style: "currency", currency: "USD" });
 
 const HOTELS = [
